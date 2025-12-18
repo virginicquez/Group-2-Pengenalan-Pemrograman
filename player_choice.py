@@ -1,5 +1,8 @@
 def pilihan_pemain():
-    pilihan = input("Pilih batu, gunting, atau kertas: ").lower()
+    print(f"\n{'='*42}\n|{'Pilih batu, gunting, atau kertas':^40}|\n{'='*42}")
+    
+    pilihan = input().lower()
     while pilihan not in ['batu', 'gunting', 'kertas']:
-        pilihan = input("Pilihan tidak valid. Pilih batu, gunting, atau kertas: ").lower()
+        print(f"\n{'='*42}\n|{'input tidak valid':^40}|\n|{'Pilih batu, gunting, atau kertas':^40}|\n{'='*42}")
+        pilihan = input().lower()
     return pilihan
