@@ -1,12 +1,14 @@
+
+
 def penentu_pemenang(player, computer):
-    print(f"Pemain memilih: {player}")
-    print(f"Komputer memilih: {computer}")
-    
+    penentu = f"player: {player} VS computer: {computer}"
+    print(f"\n{'='*42}\n|{penentu:^40}|")
+
     if player == computer:
-        print("Hasil: Seri!")
+        print(f"|{"Hasil: Seri!":^40}|\n{'*'*42}")
     elif (player == 'batu' and computer == 'gunting') or \
          (player == 'gunting' and computer == 'kertas') or \
          (player == 'kertas' and computer == 'batu'):
-        print("Hasil: Kamu menang!")
+        print(f"|{"Hasil: Kamu menang!":^40}|\n{'*'*42}")
     else:
-        print("Hasil: Komputer menang!")
+        print(f"|{"Hasil: Komputer menang!":^40}|\n{'*'*42}")
