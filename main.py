@@ -1,10 +1,12 @@
 from player_choice import pilihan_pemain
 from computer_choice import pilihan_komputer
+from winner import penentu_pemenang
 
 class batu_gunting_kertas:
     def permainan(self):
         player = pilihan_pemain()
         komputer = pilihan_komputer()
+        penentu_pemenang(player, komputer)
     
     def play_game(self):
         while True:
