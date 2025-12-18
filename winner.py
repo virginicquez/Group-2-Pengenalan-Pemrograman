@@ -1,5 +1,3 @@
-
-
 def penentu_pemenang(player, computer):
     penentu = f"player: {player} VS computer: {computer}"
     print(f"\n{'='*42}\n|{penentu:^40}|")
@@ -12,3 +10,4 @@ def penentu_pemenang(player, computer):
         print(f"|{"Hasil: Kamu menang!":^40}|\n{'*'*42}")
     else:
         print(f"|{"Hasil: Komputer menang!":^40}|\n{'*'*42}")
+
