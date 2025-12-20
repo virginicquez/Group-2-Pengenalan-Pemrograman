@@ -18,6 +18,14 @@ c). **_computer_choice.py_**: Bertanggung jawab menciptakan lawan tanding dengan
 
 d). **_winner.py_**: Bertindak sebagai "wasit" yang memproses pilihan pemain dan komputer untuk menentukan siapa pemenangnya.
 
+_**2. Validasi Input yang Cerdas (Anti-Error)**_
+
+Kami menambahkan fitur ini untuk memastikan program tidak akan berhenti atau rusak jika pemain salah mengetik. fitur yang dimaksud yaitu _**Case Insensitive dan Loop Pengamanan**_.
+
+a). _**Case Insensitive** _(.lower) berfungsi agar pemain bisa mengetik dengan huruf besar maupun kecil (misalnya: "BATU", "Batu", atau "batu"), dan program akan tetap mengenalinya, dan
+
+b). _**Loop Pengamanan**_ (while) yang berfungsi apabila pemain mengetik kata yang salah dimana kata yang dimaksud salah yaitu kata selain batu gunting dan kertas. program akan menampilkan pesan seperti "input tidak valid" dan akan terus bertanya hingga pemain memasukkan pilihan kata yang benar.
+
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
 | Virginia Aurel Umboh     | 250211060015 | Project Maintainer | https://github.com/virginicquez |
