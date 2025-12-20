@@ -39,6 +39,13 @@ Program dibuat seperti memiliki pikiran secara logika untuk menilai pertandingan
 5. **Antarmuka Visual yang Rapi (Terminal UI)**
 
 Meskipun hanya berupa teks di terminal, kami berusaha membuat agar program ini dapat memberi tampilan yang nyaman untuk dilihat. Dengan menambahkan bingkai  karakter seperti = dan * agar terlihat lebih menarik serta teks rata tengah (Center Aligned) sehingga tampilan terlihat profesional dan simetris.
+# Panduan Instalasi
+
+Untuk bisa menjalankan program ini, ikuti langkah-langkah yang diperlukan sebagai berikut:
+
+1. **Persiapan Perangkat Lunak (Prasyarat)**
+
+hal pertama yang wajib diperhatikan adalah memastikan bahwa Pytho 3 sudah terpasang pada komputer dengan benar. karena program ini dibuat dan hanya bisa dijalankan menggunakan bahasa Python. Sehingga jika Python tidak terinstal, kode ini tidak akan bisa dijalankan. Jadi jika belum memilikinya, kamu bisa mengunduhnya secara gratis di python.org.
 
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
