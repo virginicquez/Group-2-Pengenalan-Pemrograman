@@ -43,21 +43,24 @@ Meskipun hanya berupa teks di terminal, kami berusaha membuat agar program ini d
 
 Untuk bisa menjalankan program ini, ikuti langkah-langkah yang diperlukan sebagai berikut:
 
-1. **Persiapan Perangkat Lunak (Prasyarat)**
-   
-   Pastikan komputer kamu sudah terpasang Python 3. karena program ini dibuat dan hanya bisa dijalankan menggunakan bahasa Python. Jadi jika belum memilikinya, kamu bisa mengunduhnya secara gratis di python.org.
+1. **Persiapan Perangkat Lunak**
+
+hal pertama yang wajib diperhatikan adalah memastikan bahwa Pytho 3 sudah terpasang pada komputer dengan benar. karena program ini dibuat dan hanya bisa dijalankan menggunakan bahasa Python. Sehingga jika Python tidak terinstal, kode ini tidak akan bisa dijalankan. Jadi jika belum memilikinya, kamu bisa mengunduhnya secara gratis di python.org.
 
 2. **Menyiapkan File Program**
    
-   Karena program ini bersifat modular atau terbagi menjadi beberapa bagian, semua file harus berada dalam satu folder yang sama agar bisa saling terikat.
+Program ini terbagi menjadi beberapa bagian (modular), sehingga semua file harus di download terlebih dahulu kemudian disimpan dalam satu folder yang sama agar dapat saling terikat. langkah sederhananya sebagai berikut:
 
-a). Buat sebuah folder baru di komputer kamu (misalnya diberi nama GameBatuGuntingKertas).
+a). Download ke 4 file py yang terdapat pada repositories yakni: main.py; player_choice.py; computer_choice.py dan winner.py.
 
-b). Simpan ke-4 file berikut ke dalam folder tersebut, yakni: main.py; player_choice.py; computer_choice.py dan winner.py.
+b). Buat sebuah folder baru pada komputer kemudian beri nama, misalnya diberi nama GameBatuGuntingKertas.
 
-3. **Tidak Perlu Instalasi Library Tambahan**
+c). Kemudian simpan ke-4 file yang sudah didowload kedalam file baru yang baru dibuat.
+
+3. **Instalasi Library Tambahan tidak diperlukan**
    
-Fitur unggulan dari program ini adalah kesederhanaannya. Sehingga tidak perlu menginstal library tambahan melalui terminal (seperti pip install), karena program ini hanya menggunakan library bawaan Python yaitu random.
+salah satu keunggulan dari program ini adalah kesederhanaannya, Sehingga tidak perlu menginstal library tambahan melalui terminal seperti pip install dan sebagainya, karena program ini hanya menggunakan library bawaan Python yaitu random.
+
 
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
