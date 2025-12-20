@@ -39,25 +39,6 @@ Program dibuat seperti memiliki pikiran secara logika untuk menilai pertandingan
 5. **Antarmuka Visual yang Rapi (Terminal UI)**
 
 Meskipun hanya berupa teks di terminal, kami berusaha membuat agar program ini dapat memberi tampilan yang nyaman untuk dilihat. Dengan menambahkan bingkai  karakter seperti = dan * agar terlihat lebih menarik serta teks rata tengah (Center Aligned) sehingga tampilan terlihat profesional dan simetris.
-# Panduan Instalasi
-
-Untuk bisa menjalankan program ini, ikuti langkah-langkah yang diperlukan sebagai berikut:
-
-1. **Persiapan Perangkat Lunak (Prasyarat)**
-   
-   Pastikan komputer kamu sudah terpasang Python 3. karena program ini dibuat dan hanya bisa dijalankan menggunakan bahasa Python. Jadi jika belum memilikinya, kamu bisa mengunduhnya secara gratis di python.org.
-
-2. **Menyiapkan File Program**
-   
-   Karena program ini bersifat modular atau terbagi menjadi beberapa bagian, semua file harus berada dalam satu folder yang sama agar bisa saling terikat.
-
-a). Buat sebuah folder baru di komputer kamu (misalnya diberi nama GameBatuGuntingKertas).
-
-b). Simpan ke-4 file berikut ke dalam folder tersebut, yakni: main.py; player_choice.py; computer_choice.py dan winner.py.
-
-3. **Tidak Perlu Instalasi Library Tambahan**
-   
-Fitur unggulan dari program ini adalah kesederhanaannya. Sehingga tidak perlu menginstal library tambahan melalui terminal (seperti pip install), karena program ini hanya menggunakan library bawaan Python yaitu random.
 
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
