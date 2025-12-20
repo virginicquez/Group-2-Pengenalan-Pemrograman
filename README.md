@@ -26,6 +26,20 @@ a). _**Case Insensitive** _(.lower) berfungsi agar pemain bisa mengetik dengan h
 
 b). _**Loop Pengamanan**_ (while) yang berfungsi apabila pemain mengetik kata yang salah dimana kata yang dimaksud salah yaitu kata selain batu gunting dan kertas. program akan menampilkan pesan seperti "input tidak valid" dan akan terus bertanya hingga pemain memasukkan pilihan kata yang benar.
 
+_**3. Musuh dengan pilihan Acak**_
+
+Program ini memberikan tantangan yang nyata karena pilihan komputer tidak bisa ditebak:
+
+Menggunakan library random untuk memilih antara batu, gunting, atau kertas secara otomatis dengan peluang yang sama adilnya.
+
+**_4. Sistem Penentu Kemenangan yang Akurat_**
+   
+Program dibuat seperti memiliki pikiran secara logika untuk menilai pertandingan berdasarkan aturan standar yang berlaku, seperti kapan pemain dinyatakan menang, kalah dan bahkan saat seri terjadi. Fitur ini terdapat pada file winner.py.
+
+_**5. Antarmuka Visual yang Rapi (Terminal UI)**_
+
+Meskipun hanya berupa teks di terminal, kami berusaha membuat agar program ini dapat memberi tampilan yang nyaman untuk dilihat. Dengan menambahkan bingkai  karakter seperti = dan * agar terlihat lebih menarik serta teks rata tengah (Center Aligned) sehingga tampilan terlihat profesional dan simetris.
+
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
 | Virginia Aurel Umboh     | 250211060015 | Project Maintainer | https://github.com/virginicquez |
