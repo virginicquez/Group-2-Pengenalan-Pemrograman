@@ -61,6 +61,7 @@ Fitur unggulan dari program ini adalah kesederhanaannya. Sehingga tidak perlu me
 
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
+|--------------------------|--------------|--------------------|---------------------------------|
 | Virginia Aurel Umboh     | 250211060015 | Project Maintainer | https://github.com/virginicquez |
 | Timothy Wayne Moningkey  | 250211060013 | Collaborator       | https://github.com/TrZee10      |
 | Kelvi Kassa Pairunan     | 250211060022 | Collaborator       | https://github.com/Kelvi-67     |
