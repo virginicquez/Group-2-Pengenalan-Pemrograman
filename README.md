@@ -17,3 +17,9 @@ b). **_player_choice.py_**: Bertanggung jawab untuk mengambil input atau pilihan
 c). **_computer_choice.py_**: Bertanggung jawab menciptakan lawan tanding dengan menghasilkan pilihan acak dari komputer.
 
 d). **_winner.py_**: Bertindak sebagai "wasit" yang memproses pilihan pemain dan komputer untuk menentukan siapa pemenangnya.
+
+# Daftar Kontributor
+| Nama                     | NIM          | Roles              | Link Akun Github                |
+| Virginia Aurel Umboh     | 250211060015 | Project Maintainer | https://github.com/virginicquez |
+| Timothy Wayne Moningkey  | 250211060013 | Collaborator       | https://github.com/TrZee10      |
+| Kelvi Kassa Pairunan     | 250211060022 | Collaborator       | https://github.com/Kelvi-67     |
