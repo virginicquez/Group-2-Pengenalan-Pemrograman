@@ -57,6 +57,11 @@ b). Buat sebuah folder baru pada komputer kemudian beri nama, misalnya diberi na
 
 c). Kemudian simpan ke-4 file yang sudah didowload kedalam file baru yang baru dibuat.
 
+3. **Instalasi Library Tambahan tidak diperlukan**
+   
+salah satu keunggulan dari program ini adalah kesederhanaannya, Sehingga tidak perlu menginstal library tambahan melalui terminal seperti pip install dan sebagainya, karena program ini hanya menggunakan library bawaan Python yaitu random.
+
+
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
 | Virginia Aurel Umboh     | 250211060015 | Project Maintainer | https://github.com/virginicquez |
