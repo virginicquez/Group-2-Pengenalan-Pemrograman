@@ -62,6 +62,35 @@ c). Kemudian simpan ke-4 file yang sudah didowload kedalam file baru yang baru d
 salah satu keunggulan dari program ini adalah kesederhanaannya, Sehingga tidak perlu menginstal library tambahan melalui terminal seperti pip install dan sebagainya, karena program ini hanya menggunakan library bawaan Python yaitu random.
 
 
+# Dokumentasi Teknis
+```mermaid
+flowchart TD
+  A([Start]) --> B{Mau main?}
+  B --> |Tidak| C["Tampilkan Pesan<br>Terima kasih"]
+  C --> Z([End])
+
+  B --> |Ya| D["Mulai game<br>play_game() loop"]
+  D --> E["Pemain memilih<br>player_choice()"]
+  E --> F{Validasi Input}
+  F --> |Input tidak valid| G["Tampilkan pesan error<br>Ulangi input"]
+  G --> D
+
+  F --> |Input valid| H["Komputer memilih computer_choice()"]
+  H --> I[Tampilkan pilihan player VS komputer]
+  I --> J{Tentukan pemenang}
+  J --> |Seri| K["Tampilkan Hasil: Seri!"]
+  J --> |Player Menang| L["Tampilkan Hasil: 'Kamu menang!'"]
+  J --> |Komputer Menang| M["Tampilkan Hasil: 'Komputer menang!'"]
+  K --> N{Next round?}
+  L --> N
+  M --> N
+
+  N --> |Ya| D
+  N --> |Tidak| O[Keluar dari loop]
+  O --> P[Selesai permainan]
+  P --> Z
+```
+
 # Daftar Kontributor
 | Nama                     | NIM          | Roles              | Link Akun Github                |
 |--------------------------|--------------|--------------------|---------------------------------|
