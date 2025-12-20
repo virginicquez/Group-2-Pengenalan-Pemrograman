@@ -1,6 +1,11 @@
 # Group-2-Pengenalan-Pemrograman
+ROCK, PAPER, SCISSORS (RPS) GAME
+
 For this assesment, we create a Rock, Paper, Scissors (RPS) Game. Choose your choice!
-# fitur-fitur utama
+# Pendahuluan
+  Program yang kami buat adalah game RPS atau Rock, Paper, Scissors (Batu, Gunting, Kertas). Game ini telah dikenal banyak orang sebagai permainan yang dapat dimainkan secara 
+bersama-sama dan menggunakan cara tradisional yaitu dengan mengeluarkan gerakan tangan membentuk batu, gunting, atau kertas. Namun, pada permainan yang kami buat ini, pemain tidak perlu berhadapan dengan seseorang agar dapat memainkannya. Di sini pemain akan berhadapan dengan komputer yang akan menjadi lawan dari pemain. So, beat the computer and be the winner!
+# Fitur-fitur utama
  **1. Arsitektur Kode Modular**
  
   Kami membuat program ini menggunakan teknik modular. Yaitu teknik yang tidak menumpuk semua kode pada satu tempat,   melainkan membaginya ke dalam beberapa file yang berbeda agar lebih terorganisir, dengan pembagian sebagai berikut:
