@@ -72,7 +72,7 @@ Contoh jika folder bernama GameBatuGuntingKertas: cd GameBatuGuntingKertas
 2. Menjalankan Program
 
 Jalankan file utama program, yaitu main.py, dengan perintah berikut:
-python main.py
+python main.py atau py main.py
 
 atau jika pada sistem menggunakan Python 3 secara eksplisit:
 python3 main.py
