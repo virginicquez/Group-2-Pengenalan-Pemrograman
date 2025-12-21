@@ -45,7 +45,7 @@ Untuk bisa menjalankan program ini, ikuti langkah-langkah yang diperlukan sebaga
 
 1. **Persiapan Perangkat Lunak**
 
-hal pertama yang wajib diperhatikan adalah memastikan bahwa Pytho 3 sudah terpasang pada komputer dengan benar. karena program ini dibuat dan hanya bisa dijalankan menggunakan bahasa Python. Sehingga jika Python tidak terinstal, kode ini tidak akan bisa dijalankan. Jadi jika belum memilikinya, kamu bisa mengunduhnya secara gratis di python.org.
+hal pertama yang wajib diperhatikan adalah memastikan bahwa Python 3 sudah terpasang pada komputer dengan benar. karena program ini dibuat dan hanya bisa dijalankan menggunakan bahasa Python. Sehingga jika Python tidak terinstal, kode ini tidak akan bisa dijalankan. Jadi jika belum memilikinya, kamu bisa mengunduhnya secara gratis di python.org.
 
 2. **Menyiapkan File Program**
    
@@ -99,10 +99,10 @@ flowchart TD
   C --> Z([End])
 
   B --> |Ya| D["Mulai game<br>play_game() loop"]
-  D --> E["Pemain memilih<br>player_choice()"]
+  D --> E[/"Pemain memilih<br>player_choice()"/]
   E --> F{Validasi Input}
   F --> |Input tidak valid| G["Tampilkan pesan error<br>Ulangi input"]
-  G --> D
+  G --> E
 
   F --> |Input valid| H["Komputer memilih computer_choice()"]
   H --> I[Tampilkan pilihan player VS komputer]
