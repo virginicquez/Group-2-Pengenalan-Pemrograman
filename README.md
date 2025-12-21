@@ -1,7 +1,7 @@
 # Group-2-Pengenalan-Pemrograman
 ROCK, PAPER, SCISSORS (RPS) GAME
 
-For this assesment, we create a Rock, Paper, Scissors (RPS) Game. Choose your choice!
+For this assesment, we've created a Rock, Paper, Scissors (RPS) Game. Choose your choice!
 # Pendahuluan
   Program yang kami buat adalah game RPS atau Rock, Paper, Scissors (Batu, Gunting, Kertas). Game ini telah dikenal banyak orang sebagai permainan yang dapat dimainkan secara 
 bersama-sama dan menggunakan cara tradisional yaitu dengan mengeluarkan gerakan tangan membentuk batu, gunting, atau kertas. Namun, pada permainan yang kami buat ini, pemain tidak perlu berhadapan dengan seseorang agar dapat memainkannya. Di sini pemain akan berhadapan dengan komputer yang akan menjadi lawan dari pemain. So, beat the computer and be the winner!
@@ -61,6 +61,35 @@ c). Kemudian simpan ke-4 file yang sudah didowload kedalam file baru yang baru d
    
 salah satu keunggulan dari program ini adalah kesederhanaannya, Sehingga tidak perlu menginstal library tambahan melalui terminal seperti pip install dan sebagainya, karena program ini hanya menggunakan library bawaan Python yaitu random.
 
+# Panduan Menjalankan
+Setelah semua file program berhasil disiapkan dalam satu folder, langkah selanjutnya adalah menjalankan game Rock, Paper, Scissors. Ikuti langkah-langkah berikut:
+
+1. Membuka Terminal / Command Prompt
+
+Buka terminal (Linux / macOS) atau Command Prompt (Windows), kemudian arahkan ke folder tempat file program disimpan.
+Contoh jika folder bernama GameBatuGuntingKertas: cd GameBatuGuntingKertas
+
+2. Menjalankan Program
+
+Jalankan file utama program, yaitu main.py, dengan perintah berikut:
+python main.py
+
+atau jika pada sistem menggunakan Python 3 secara eksplisit:
+python3 main.py
+
+3. Memainkan Game
+
+a) Program akan menampilkan tampilan awal dan menyapa pemain.
+
+b) Pemain diminta untuk memasukkan pilihan batu, gunting, atau kertas.
+
+c) Komputer akan memilih secara otomatis.
+
+d) Hasil permainan (menang, kalah, atau seri) akan ditampilkan di layar.
+
+4. Melanjutkan atau Mengakhiri Permainan
+
+Setelah satu ronde selesai, pemain dapat memilih untuk melanjutkan permainan atau menghentikannya sesuai dengan instruksi yang ditampilkan pada layar.
 
 # Dokumentasi Teknis
 ```mermaid
