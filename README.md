@@ -107,9 +107,9 @@ flowchart TD
   F --> |Input valid| H["Komputer memilih computer_choice()"]
   H --> I[Tampilkan pilihan player VS komputer]
   I --> J{Tentukan pemenang}
-  J --> |Seri| K["Tampilkan Hasil: Seri!"]
-  J --> |Player Menang| L["Tampilkan Hasil: 'Kamu menang!'"]
-  J --> |Komputer Menang| M["Tampilkan Hasil: 'Komputer menang!'"]
+  J --> |Seri| K[/"Tampilkan Hasil: Seri!"/]
+  J --> |Player Menang| L[/"Tampilkan Hasil: 'Kamu menang!'"/]
+  J --> |Komputer Menang| M[/"Tampilkan Hasil: 'Komputer menang!'"/]
   K --> N{Next round?}
   L --> N
   M --> N
