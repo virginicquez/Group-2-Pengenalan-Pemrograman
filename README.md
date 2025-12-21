@@ -64,12 +64,12 @@ salah satu keunggulan dari program ini adalah kesederhanaannya, Sehingga tidak p
 # Panduan Menjalankan
 Setelah semua file program berhasil disiapkan dalam satu folder, langkah selanjutnya adalah menjalankan game Rock, Paper, Scissors. Ikuti langkah-langkah berikut:
 
-1. Membuka Terminal / Command Prompt
+1. **Membuka Terminal / Command Prompt**
 
 Buka terminal (Linux / macOS) atau Command Prompt (Windows), kemudian arahkan ke folder tempat file program disimpan.
 Contoh jika folder bernama GameBatuGuntingKertas: cd GameBatuGuntingKertas
 
-2. Menjalankan Program
+2. **Menjalankan Program**
 
 Jalankan file utama program, yaitu main.py, dengan perintah berikut:
 python main.py atau py main.py
@@ -77,7 +77,7 @@ python main.py atau py main.py
 atau jika pada sistem menggunakan Python 3 secara eksplisit:
 python3 main.py
 
-3. Memainkan Game
+3. **Memainkan Game**
 
 a) Program akan menampilkan tampilan awal dan menyapa pemain.
 
@@ -87,7 +87,7 @@ c) Komputer akan memilih secara otomatis.
 
 d) Hasil permainan (menang, kalah, atau seri) akan ditampilkan di layar.
 
-4. Melanjutkan atau Mengakhiri Permainan
+4. **Melanjutkan atau Mengakhiri Permainan**
 
 Setelah satu ronde selesai, pemain dapat memilih untuk melanjutkan permainan atau menghentikannya sesuai dengan instruksi yang ditampilkan pada layar.
 
